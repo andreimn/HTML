@@ -1,0 +1,25 @@
+#head-of-site{
+    background-color:lightskyblue;
+}
+#content{
+    background-color: papayawhip;
+}
+#side-panel{
+    float: left;
+    width: 25%;
+}
+#main-text{
+    float: left;
+    clear: left;
+}
+#foot-of-site{
+    background-color: lightskyblue;
+}
+
+.letter{
+    color: rgb(161, 10, 154);
+    font-size: 140%;
+    position: relative;
+    top: 5px;
+    
+}

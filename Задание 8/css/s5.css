@@ -1,0 +1,28 @@
+body{
+    background-color: azure;
+    color: darkslateblue;
+    margin: 5px;
+    padding: 2px;
+    font-style: italic; 
+}
+
+header,
+footer{
+    text-align: center;
+    background-color: gainsboro;
+}
+
+p{
+    text-align: justify;
+}
+
+h2,h3,h4{
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.letter1{
+    font-size: large;
+    color: lightblue;
+}
