@@ -1,0 +1,235 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    /* background: linear-gradient(rgb(240, 255, 240), rgb(161, 216, 161)); */
+    /* background-color: rgb(240, 255, 240); */
+    margin: 0;
+    font-size: 16pt;
+}
+
+header{
+    width: 100%;
+    margin: 2%;
+}
+
+header form {
+  position: relative;
+  width: 300px;
+  margin-left: 5%;
+}
+header input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #9a9a9a;
+  border-radius: 5px;
+  outline: none;
+  background: #ffffff;
+  color: #696969;
+}
+header button {
+  position: absolute; 
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  background: #ffffff;
+  border-radius: 0 5px 5px 0;
+  border: #484848;
+  cursor: pointer;
+}
+header button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #9f9f9f;
+}
+
+nav {
+    margin: 100px 0;
+    background-color: #E64A19;
+}
+
+/* убираем отступы и поля, а также list-style для "ul", 
+ * и добавляем "position:relative" */
+nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    }
+
+/* применяем inline-block позиционирование к элементам навигации */
+nav ul li {
+    margin: 0px -7px 0 0;
+    display:inline-block;
+    background-color: #E64A19;
+    }
+
+/* стилизуем ссылки */
+nav a {
+    display:block;
+    padding:0 10px;
+    color:#FFF;
+    font-size:20px;
+    line-height: 60px;
+    text-decoration:none;
+}
+
+/* изменяем цвет фона при наведении курсора */
+nav a:hover {
+    background-color: #000000;
+}
+
+main{
+    /* background-color: rgb(240, 255, 240); */
+}
+
+#header{
+    /* background-color: rgb(161, 216, 161); */
+    background-color: rgb(115, 187, 115);
+    padding-bottom: 30px;
+
+}
+
+#header div{
+    max-width: 50%;
+    min-width: 49%;
+    /* max-height: 50vh; */
+    min-height: 40vh;
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 4em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 255, 240);
+}
+
+#text_header{
+    
+}
+
+aside{
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 20%;
+
+}
+
+img[name="Background_header"]{
+    max-width: 100%;
+}
+
+section[name="First_information"]{
+    /* float: left; */
+    /* display: inline-block; */
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+
+    margin: 1.25%;
+    
+}
+
+#simp{
+    max-width: 47.5%;
+}
+
+#atio{
+    max-width: 47.5%;
+}
+ 
+.headline{
+    /* background-color: rgb(161, 216, 161); */
+}
+/* 
+section div p{
+    background-color: rgb(240, 255, 240);
+} */
+
+section{
+    padding: 0 10%;
+}
+
+section div h1{
+    /* text-decoration-line: overline; */
+}
+
+section div[id='text_header'] h1{
+    text-decoration-line: none;
+}
+
+#header_bt{
+    color: rgb(115, 187, 115);
+    padding: 10px 52px 10px 51px;
+    border-style: none;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+section div[id="text_header"] form{
+    
+}
+
+hr{
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    margin-left: 0;
+    border: none;
+}
+
+#secondimg{
+    width: 47.5%;
+    /* position: absolute; */
+}
+
+#mentalhealth{
+    width: 47.5%;
+    position: relative;
+    float: right;
+}
+
+.green{
+    background-color: rgb(115, 187, 115);
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#first_bt{
+    color: white;
+    background-color: rgb(115, 187, 115);
+    background-color: ;
+    padding: 10px 52px 10px 51px;
+    border-style: none;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+}
+
+footer div{
+    width: 39%;
+    text-align: center;
+    display: inline-block;
+    margin: 5%;
+}
+
+footer div img{
+    width: 25%;
+    padding: 2%;
+    background-color: rgb(115, 187, 115);
+}
