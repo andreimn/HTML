@@ -233,3 +233,17 @@ footer div img{
     padding: 2%;
     background-color: rgb(115, 187, 115);
 }
+
+footer div a{
+    color: rgb(115, 187, 115);
+    text-decoration: none;
+}
+
+#urltopattern{
+    font-size: 24pt;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
